@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="ebooks.css" />
+        </head>
+        <script>
+          function validateEmail(email) {
+              const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+              return re.test(String(email).toLowerCase());
+          }
+  
+          function validateForm() {
+              const email = document.getElementById("email-field").value;
+              if (!validateEmail(email)) {
+                  alert("Please enter a valid email address.");
+                  return false;
+              }
+              return true;
+          }
+      </script>
+        <body>
+        <div class="size">
+        <h1 style="font-size: 100px;"></h1>
+        <h1>NOVEL NEXUS</h1>
+<div class="email-box">
+    <input
+      class="email"
+      aria-label="Email for Signup"
+      id="email-field"
+      name="user[email_address]"
+      placeholder="Enter your email address..."
+      required=""
+      type="email"
+      value=""
+    />
+    <a href ="web.html"><button>Get started</button></a>
+  </div>
+</div>
+</body>
+  </html>

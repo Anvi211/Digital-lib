@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  h2,
+  h5 {
+    margin: 0;
+  }
+  .size{
+    background-image: url('https://img.freepik.com/free-vector/science-atom-background-vector-gradient-blue-education-remix_53876-125994.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710288000&semt=ais');
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    text-wrap: wrap;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .login{
+    background-color:rosybrown;
+    display: flex;
+
+  }
+  .bt{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+    
+  }
+  
+  .con {
+    background-color: antiquewhite;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 10px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    text-align: center;
+    flex-grow: 1;
+  }
+  .email-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 200px;
+  }
+  
+  .gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 10px;
+  }
+  .loop {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .para {
+    width: 80vh;
+  }
+  
+  .para p {
+    font-weight: bold;
+  }
+  
+  .book a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the 'Get started' button */
+  button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 4px;
+  }
+  
+  .book {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 10px;
+    gap: 30px;
+    text-align: center;
+ 
+  }
+  .h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .box {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .card {
+    height: 38vh;
+    width: fit-content;
+    padding: 5px;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  
+  .card h3 {
+    text-align: center;
+  }
+  .footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+  }
+ 
